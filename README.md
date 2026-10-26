@@ -10,3 +10,6 @@ AdditionalFile4.R is the core microbiome analysis.
 
 
 Taxonomy assigned using SILVA v.132
+
+The raw data are publicly available at https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1227997; Accession # PRJNA1227997.
+
