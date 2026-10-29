@@ -1,21 +1,32 @@
-Associated Publication:
+# American Lobster Embryo and Larval Microbiome Analysis
 
-Koshak, J.S., Song, B., Jellison, B. et al. The bacterial community composition of American Lobster (Homarus americanus) embryos and recently hatched larvae held under experimental laboratory conditions. Sci Rep 16, 9045 (2026). https://doi.org/10.1038/s41598-026-35387-8
+R scripts for processing and analyzing 16S rRNA amplicon sequencing data from American lobster (*Homarus americanus*) embryos, recently hatched larvae, and tank water.
 
-The raw data are publicly available at https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1227997; Accession # PRJNA1227997.
+## Associated Publication
 
-File Metadata:
+Koshak, J. S., Song, B., Jellison, B., et al. (2026). The bacterial community composition of American lobster (*Homarus americanus*) embryos and recently hatched larvae held under experimental laboratory conditions. *Scientific Reports*, 16, 9045.
 
-AdditionalFile1.R is DADA2 the R code for lobster embryos
+https://doi.org/10.1038/s41598-026-35387-8
 
-AdditionalFile2.R is DADA2 the R code for lobster larvae and tank water samples
+## Data Availability
 
-AdditionalFile3.R is code for analyzing taxonomy via phyloseq.
+Raw sequencing data are publicly available through the NCBI Sequence Read Archive (SRA) under BioProject accession **PRJNA1227997**.
 
-AdditionalFile4.R is the core microbiome analysis. 
+[View the BioProject on NCBI](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1227997)
 
+## Repository Contents
 
-Taxonomy assigned using SILVA v.132
+| File | Description |
+|---|---|
+| `AdditionalFile1.R` | DADA2 workflow for processing 16S rRNA amplicon sequencing data from lobster embryos. |
+| `AdditionalFile2.R` | DADA2 workflow for processing 16S rRNA amplicon sequencing data from lobster larvae and tank water samples. |
+| `AdditionalFile3.R` | Taxonomic analysis and visualization using the `phyloseq` R package. |
+| `AdditionalFile4.R` | Core microbiome analysis. |
 
+## Taxonomic Classification
 
+Taxonomic assignments were performed using the SILVA rRNA database, version 132.
 
+## Reproducibility
+
+These scripts document the bioinformatics and downstream analytical workflows used in the associated publication. Refer to the publication for details on the experimental design, sequencing methods, and statistical analyses.
